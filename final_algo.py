@@ -294,6 +294,9 @@ try:
             print(f"Exiting While Loop due to KeyboardInterrupt at {str(dt.now()):18s} UTC")
             print("------------------------------------------------------------------------------")
             print("--- \t --- \t --- \t --- \t --- \t --- \t --- \t --- \t --- \t --- \t --- \t --- \t")
+        
+        except:
+            continue
                 
 except KeyboardInterrupt:
     print("--- \t --- \t --- \t --- \t --- Team Traceback \t --- \t --- \t --- \t --- \t --- \t")
